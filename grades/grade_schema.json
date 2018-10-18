@@ -1,0 +1,13 @@
+{ "name": "Lab 5",
+  "total_points" : 20,
+  "questions": [
+
+    {
+      "question": 1,
+      "source_file" : "author_book.py",
+      "points" : 20,
+      "test_files": ["test_author_book.py"]
+    }
+
+  ]
+}
