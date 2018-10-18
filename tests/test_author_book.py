@@ -11,7 +11,7 @@ class TestAuthorBook(TestCase):
         example = {'a': 'aaa', 'b': 'bbb'}
         update = {'a': 'aaa', 'b': 'bbb', 'c': 'ccc'}
         author_book.add_book(example)
-        self.assertEqual(update, example)
+        self.assertEqual(update, example, 'When adding a new book author:title, your dictionary was not updated correctly.')
 
 
     @patch('builtins.input')
@@ -20,7 +20,7 @@ class TestAuthorBook(TestCase):
         example = {'a': 'aaa', 'b': 'bbb'}
         update = {'a': 'asdsdfsdf', 'b': 'bbb'}
         author_book.edit_book(example)
-        self.assertEqual(update, example)
+        self.assertEqual(update, example, 'When editing a book, the title or author was not modified correctly')
 
 
     @patch('builtins.input')
@@ -30,8 +30,8 @@ class TestAuthorBook(TestCase):
         example = {'a': 'aaa', 'b': 'bbb'}
         update = {'a': 'aaa', 'b': 'bbb'}
         author_book.edit_book(example)
-        self.assertEqual(update, example)
-        self.assertIn('Not Found', all_output(mock_print))
+        self.assertEqual(update, example, 'When trying to edit a book that is not in the dictionary, the dictionary should not be modified')
+        self.assertIn('not found', all_output(mock_print).lower(), 'When editing a book that\'s not in the dictionary, print the exact message "Not Found"')
 
 
     @patch('builtins.input')
@@ -43,39 +43,39 @@ class TestAuthorBook(TestCase):
 
         author_book.find_book(example)
         self.assertEqual(update, example)  # Not modified
-        self.assertTrue('aaa' in all_output(mock_print))
+        self.assertTrue('aaa' in all_output(mock_print), 'When searching for a book\'s author, print the title for that author if it is found.')
 
 
     @patch('builtins.input')
     @patch('builtins.print')
     def test_find_book_not_found(self, mock_print, mock_input):
-        mock_input.side_effect = ['c']
+        mock_input.side_effect = ['c', 'whatever']
         example = {'a': 'aaa', 'b': 'bbb'}
         update = {'a': 'aaa', 'b': 'bbb'}
 
         author_book.find_book(example)
         self.assertEqual(update, example)  # Not modified
-        self.assertTrue('Not Found' in all_output(mock_print))
+        self.assertTrue('not found' in all_output(mock_print).lower(), 'When searching for a book, if the author is not found, print "Not Found"')
 
 
     @patch('builtins.input')
     def test_delete_book(self, mock_input):
-        mock_input.side_effect = ['a']
+        mock_input.side_effect = ['a', 'aaa']
         example = {'a': 'aaa', 'b': 'bbb'}
         update = {'b': 'bbb'}
         author_book.delete_book(example)
-        self.assertEqual(update, example)
+        self.assertEqual(update, example, 'When deleting a book, remove the key-value pair where the key matches the author given.')
 
 
     @patch('builtins.input')
     @patch('builtins.print')
     def test_delete_book_not_found(self, mock_print, mock_input):
-        mock_input.side_effect = ['c']
+        mock_input.side_effect = ['c', 'something']
         example = {'a': 'aaa', 'b': 'bbb'}
         update = {'a': 'aaa', 'b': 'bbb'}
         author_book.delete_book(example)
-        self.assertEqual(update, example)
-        self.assertTrue('Not Found' in all_output(mock_print))
+        self.assertEqual(update, example, 'When deleting an author that is not in the dictionary, don\'t modify the dictionary')
+        self.assertTrue('not found' in all_output(mock_print).lower(), 'When deleting an author that\'s not in the dictionary, print "Not Found')
 
 
     @patch('builtins.print')
@@ -83,7 +83,7 @@ class TestAuthorBook(TestCase):
         example = {'a': '123', 'b': '456'}
         expected_printed = ['a', '123', 'b', '456']
         author_book.view_books(example)
-        self.assertTrue(print_calls_contain_output(mock_print, expected_printed))
+        self.assertTrue(print_calls_contain_output(mock_print, expected_printed), 'Print all of the authors and titles. Print the authors and titles together.')
 
 
 

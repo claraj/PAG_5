@@ -1,5 +1,6 @@
 # Homework Week 5, Dictionaries
 
+
 def main():
 
     # Don't modify the main method.
@@ -38,9 +39,13 @@ def menu():
     print()
 
 
+# Make sure you use the exact function names given!
+# And, print the exact error messages requested.
+
+
 # TODO write the add_book function here.
 # This function should ask for an author and a title, and add them to the dictionary.
-# If the author is already in the dictionary, print an error message to the user and don't modify the dictionary.
+# If the author is already in the dictionary, print "Already in dictionary" and don't modify the dictionary.
 # Your program should not crash.
 
 
@@ -65,9 +70,8 @@ def menu():
 # If the author is found in the dictionary, delete that author's key-value pair.
 # If the author is not found, print 'Not Found' and don't modify the dictionary. Your program should not crash.
 
-# Make sure you use the exact function names given!
 
 
-# Don't modify this either.
+# Don't modify this call to main() either.
 if __name__ == '__main__':
     main()
