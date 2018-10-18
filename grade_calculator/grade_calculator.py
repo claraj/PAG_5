@@ -108,7 +108,7 @@ def run_test(test_file):
     try:
         test_package = importlib.import_module(test_file)
     except ModuleNotFoundError as err:
-        sys.exit('Unable to calculate grades. Please report this to the instructor.', err)
+        sys.exit('Unable to calculate grades. Please report this to the instructor.' + str(err))
 
     objects = [m[1] for m in inspect.getmembers(test_package) if inspect.isclass(m[1])]
     #print('objects', objects)

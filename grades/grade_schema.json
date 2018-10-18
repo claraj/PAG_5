@@ -4,9 +4,9 @@
 
     {
       "question": 1,
-      "source_file" : "author_book.py",
+      "source_file" : "author_book",
       "points" : 20,
-      "test_files": ["test_author_book.py"]
+      "test_files": ["test_author_book"]
     }
 
   ]
