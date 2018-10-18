@@ -4,12 +4,15 @@
 def main():
 
     # Don't modify the main method.
+
+    # Example books
     books = {'JK Rolling': 'Harry Potter',
              'Al Sweigart': 'Automate the Boring Stuff With Python',
              'Margaret Wise Brown': 'Goodnight Moon'}
 
+    # loop to display the menu, and execute the function to perform the task requested.
     while True:
-        menu()
+        display_menu()
         selection = input('enter selection')
         if selection == 'add':
             add_book(books)
@@ -28,8 +31,9 @@ def main():
             print('Not a valid choice, try again')
 
 
-def menu():
+def display_menu():
     # Don't modify this method.
+    # Print all of the program's options.
     print('add: Add new book')
     print('view: View all books')
     print('find: Find a title for an author')
@@ -44,13 +48,13 @@ def menu():
 
 
 # TODO write the add_book function here.
-# This function should ask for an author and a title, and add them to the dictionary.
-# If the author is already in the dictionary, print "Already in dictionary" and don't modify the dictionary.
-# Your program should not crash.
+# This function should ask for an author and a title, and add these as a new key:value pair to the books dictionary.
+# If the author is already in the dictionary, print "Already in dictionary" and don't modify the dictionary. Your program should not crash
 
 
 # TODO write the view_books function here. This function should print all of the authors and titles.
 # This function should not ask for any input.
+# Print the authors and titles together
 
 
 # TODO write the find_book function here.
@@ -66,7 +70,7 @@ def menu():
 
 
 # TODO write the delete_book function here.
-# This function should ask for an author. Delete the key-value pair for this author.
+# This function should ask for an author.
 # If the author is found in the dictionary, delete that author's key-value pair.
 # If the author is not found, print 'Not Found' and don't modify the dictionary. Your program should not crash.
 
