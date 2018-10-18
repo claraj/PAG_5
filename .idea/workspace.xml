@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="164d38df-cd55-4a89-ab58-121ce05cc0fe" name="Default Changelist" comment="fix filenames in grade schema">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="164d38df-cd55-4a89-ab58-121ce05cc0fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,80 +44,34 @@
         <counts>
           <entry key="gitignore" value="26" />
           <entry key="json" value="4" />
-          <entry key="py" value="4978" />
-          <entry key="txt" value="72" />
+          <entry key="py" value="5305" />
+          <entry key="txt" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="4" />
-          <entry key="PLAIN_TEXT" value="98" />
-          <entry key="Python" value="4978" />
+          <entry key="PLAIN_TEXT" value="131" />
+          <entry key="Python" value="5305" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab_questions/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab_questions/author_book.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="291">
+              <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
               <folding>
-                <marker date="1539892909000" expanded="true" signature="45:784" ph="..." />
-                <marker date="1539892909000" expanded="true" signature="782:783" ph="..." />
-                <marker date="1539892909000" expanded="true" signature="1434:1436" ph="..." />
-                <marker date="1539892909000" expanded="true" signature="1584:1585" ph="..." />
-                <marker date="1539892909000" expanded="true" signature="1793:1794" ph="..." />
-                <marker date="1539892909000" expanded="true" signature="2133:2134" ph="..." />
+                <marker date="1539896552000" expanded="true" signature="45:901" ph="..." />
+                <marker date="1539896552000" expanded="true" signature="899:900" ph="..." />
+                <marker date="1539896552000" expanded="true" signature="1629:1631" ph="..." />
+                <marker date="1539896552000" expanded="true" signature="1819:1820" ph="..." />
+                <marker date="1539896552000" expanded="true" signature="2028:2029" ph="..." />
+                <marker date="1539896552000" expanded="true" signature="2368:2369" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_author_book.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1539892909000" expanded="true" signature="201:235" ph="..." />
-                <marker date="1539892909000" expanded="true" signature="1657:2536" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grade_calculator/grade_calculator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grades/grade_schema.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -138,11 +92,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lab_questions/__init__.py" />
-        <option value="$PROJECT_DIR$/lab_questions/author_book.py" />
         <option value="$PROJECT_DIR$/tests/test_author_book.py" />
         <option value="$PROJECT_DIR$/grade_calculator/grade_calculator.py" />
         <option value="$PROJECT_DIR$/grades/grade_schema.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lab_questions/author_book.py" />
       </list>
     </option>
   </component>
@@ -231,7 +185,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -404,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539893636024</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Project initial config, comments">
+      <created>1539896552702</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539896552702</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -453,13 +414,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25159913" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25159913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.47549668" />
+      <window_info anchor="bottom" id="Terminal" weight="0.25960264" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -485,13 +446,11 @@
     <MESSAGE value="Dictionaries lab" />
     <MESSAGE value="Test fail messages" />
     <MESSAGE value="fix filenames in grade schema" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix filenames in grade schema" />
+    <MESSAGE value="Project initial config, comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project initial config, comments" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/grade_calculator/reports/tests.test_q2_shout_out_report.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_questions/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/print_util.py">
@@ -501,30 +460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab_questions/author_book.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <marker date="1539892909000" expanded="true" signature="45:784" ph="..." />
-            <marker date="1539892909000" expanded="true" signature="782:783" ph="..." />
-            <marker date="1539892909000" expanded="true" signature="1434:1436" ph="..." />
-            <marker date="1539892909000" expanded="true" signature="1584:1585" ph="..." />
-            <marker date="1539892909000" expanded="true" signature="1793:1794" ph="..." />
-            <marker date="1539892909000" expanded="true" signature="2133:2134" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_author_book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1539892909000" expanded="true" signature="201:235" ph="..." />
-            <marker date="1539892909000" expanded="true" signature="1657:2536" ph="..." />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -542,10 +481,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/tests/test_author_book.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1539892909000" expanded="true" signature="201:235" ph="..." />
+            <marker date="1539892909000" expanded="true" signature="1657:2536" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_questions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_questions/author_book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+          <folding>
+            <marker date="1539896552000" expanded="true" signature="45:901" ph="..." />
+            <marker date="1539896552000" expanded="true" signature="899:900" ph="..." />
+            <marker date="1539896552000" expanded="true" signature="1629:1631" ph="..." />
+            <marker date="1539896552000" expanded="true" signature="1819:1820" ph="..." />
+            <marker date="1539896552000" expanded="true" signature="2028:2029" ph="..." />
+            <marker date="1539896552000" expanded="true" signature="2368:2369" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
