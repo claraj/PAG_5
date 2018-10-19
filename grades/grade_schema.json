@@ -1,13 +1,17 @@
 { "name": "Lab 5",
   "total_points" : 20,
   "questions": [
-
+    {
+      "question": 1,
+      "source_file" : "hello",
+      "points" : 5,
+      "test_files": ["test_hello"]
+    },
     {
       "question": 1,
       "source_file" : "author_book",
-      "points" : 20,
+      "points" : 15,
       "test_files": ["test_author_book"]
     }
-
   ]
 }

@@ -5,6 +5,7 @@ from tests.print_util import print_calls_contain_output, all_output
 
 
 class TestAuthorBook(TestCase):
+
     @patch('builtins.input')
     def test_add_book(self, mock_input):
         mock_input.side_effect = ['c', 'ccc']
@@ -12,6 +13,17 @@ class TestAuthorBook(TestCase):
         update = {'a': 'aaa', 'b': 'bbb', 'c': 'ccc'}
         author_book.add_book(example)
         self.assertEqual(update, example, 'When adding a new book author:title, your dictionary was not updated correctly.')
+
+
+    @patch('builtins.input')
+    @patch('builtins.print')
+    def test_add_book_already_exists(self, mock_print, mock_input):
+        mock_input.side_effect = ['a', 'ccc']
+        example = {'a': 'aaa', 'b': 'bbb'}
+        update = {'a': 'aaa', 'b': 'bbb'}
+        author_book.add_book(example)
+        self.assertEqual(update, example, 'When adding a new book author:title, don\'t modify the dictionary if the author is already a key in it.')
+        self.assertIn('already in dictionary', all_output(mock_print).lower(), 'Print the message "Already in dictionary" if user tries to add an author that is already in the dictionary')
 
 
     @patch('builtins.input')

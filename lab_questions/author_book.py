@@ -13,7 +13,7 @@ def main():
     # loop to display the menu, and execute the function to perform the task requested.
     while True:
         display_menu()
-        selection = input('enter selection')
+        selection = input('enter selection: ')
         if selection == 'add':
             add_book(books)
         elif selection == 'view':
