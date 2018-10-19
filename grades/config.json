@@ -1,0 +1,18 @@
+{
+  "student_code_locations": [
+    "lab_questions"
+  ],
+  "report_location": "test_reports",
+  "docker": {
+    "mem_limit": "512M",
+    "mounts":
+    [
+      {
+        "source": "$PWD",
+        "target": "/usr/src/myapp",
+        "type": "bind"
+      }
+    ],
+    "tag": "pag5"
+  }
+}
