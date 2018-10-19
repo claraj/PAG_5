@@ -5,13 +5,13 @@
       "question": 1,
       "source_file" : "hello",
       "points" : 5,
-      "test_files": ["test_hello"]
+      "test_files": ["test_hello.TestHello"]
     },
     {
       "question": 1,
       "source_file" : "author_book",
       "points" : 15,
-      "test_files": ["test_author_book"]
+      "test_files": ["test_author_book.TestAuthorBook"]
     }
   ]
 }

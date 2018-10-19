@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="164d38df-cd55-4a89-ab58-121ce05cc0fe" name="Default Changelist" comment="Credit for hello question, test for adding book that already exists">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grades/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="164d38df-cd55-4a89-ab58-121ce05cc0fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grades/grade_scheme.json" beforeDir="false" afterPath="$PROJECT_DIR$/grades/grade_scheme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_hello.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +18,7 @@
     <SUITE FILE_PATH="coverage/PAG_5$grade_calculator.coverage" NAME="grade_calculator Coverage Results" MODIFIED="1539911871597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grade_calculator" />
     <SUITE FILE_PATH="coverage/PAG_5$Unittests_in_test_hello_py.coverage" NAME="Unittests in test_hello.py Coverage Results" MODIFIED="1539900465299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/PAG_5$author_book.coverage" NAME="author_book Coverage Results" MODIFIED="1539901615965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_questions" />
-    <SUITE FILE_PATH="coverage/PAG_5$test_runner.coverage" NAME="test_runner Coverage Results" MODIFIED="1539911994233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PAG_5$test_runner.coverage" NAME="test_runner Coverage Results" MODIFIED="1539914141443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PAG_5$Unittests_for_test_author_book_TestAuthorBook.coverage" NAME="Unittests for test_author_book.TestAuthorBook Coverage Results" MODIFIED="1539890732383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/PAG_5$Unittests_for_test_author_book_TestAuthorBook_test_add_book.coverage" NAME="Unittests for test_author_book.TestAuthorBook.test_add_book Coverage Results" MODIFIED="1539890782963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
@@ -37,34 +34,36 @@
         <counts>
           <entry key="Dockerfile" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="json" value="3" />
-          <entry key="py" value="16" />
+          <entry key="json" value="4" />
+          <entry key="py" value="18" />
           <entry key="txt" value="4" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="1" />
-          <entry key="JSON" value="3" />
+          <entry key="JSON" value="4" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="16" />
+          <entry key="Python" value="18" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="251" />
           <entry key="gitignore" value="42" />
-          <entry key="json" value="81" />
-          <entry key="py" value="6519" />
-          <entry key="txt" value="257" />
+          <entry key="json" value="117" />
+          <entry key="py" value="6606" />
+          <entry key="txt" value="306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="251" />
-          <entry key="JSON" value="81" />
-          <entry key="PLAIN_TEXT" value="299" />
-          <entry key="Python" value="6519" />
+          <entry key="JSON" value="117" />
+          <entry key="PLAIN_TEXT" value="348" />
+          <entry key="Python" value="6606" />
         </counts>
       </usages-collector>
     </session>
@@ -80,24 +79,6 @@
                 <marker date="1539913318000" expanded="true" signature="120:125" ph="..." />
                 <marker date="1539913318000" expanded="true" signature="190:195" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" lean-forward="true" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -121,42 +102,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grade_calculator/grade_calculator.py">
+        <entry file="file://$PROJECT_DIR$/grades/grade_scheme.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2168">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_runner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/tests/test_hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="180">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+                <marker date="1539914135000" expanded="true" signature="90:231" ph="..." />
+                <marker date="1539914135000" expanded="true" signature="259:264" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grades/config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/test_reports/TEST-test_hello.TestHello.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -176,7 +146,6 @@
       <list>
         <option value="$PROJECT_DIR$/lab_questions/__init__.py" />
         <option value="$PROJECT_DIR$/grade_calculator/grade_calculator.py" />
-        <option value="$PROJECT_DIR$/tests/test_hello.py" />
         <option value="$PROJECT_DIR$/tests/test_author_book.py" />
         <option value="$PROJECT_DIR$/grades/grade_schema.json" />
         <option value="$PROJECT_DIR$/requirements.txt" />
@@ -186,6 +155,8 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/lab_questions/author_book.py" />
         <option value="$PROJECT_DIR$/lab_questions/hello.py" />
+        <option value="$PROJECT_DIR$/grades/grade_scheme.json" />
+        <option value="$PROJECT_DIR$/tests/test_hello.py" />
       </list>
     </option>
   </component>
@@ -196,8 +167,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="318" />
-    <option name="y" value="85" />
+    <option name="x" value="311" />
+    <option name="y" value="34" />
     <option name="width" value="996" />
     <option name="height" value="759" />
   </component>
@@ -238,11 +209,6 @@
               <item name="PAG_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="PAG_5" type="462c0819:PsiDirectoryNode" />
               <item name="grades" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PAG_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PAG_5" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_questions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PAG_5" type="b2602c69:ProjectViewProjectNode" />
@@ -459,7 +425,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539907546269</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Docker configuration">
+      <created>1539913358173</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1539913358177</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix grade scheme filename">
+      <created>1539913803464</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1539913803464</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -504,21 +484,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="318" y="85" width="996" height="759" extended-state="0" />
+    <frame x="311" y="34" width="996" height="759" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3301887" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44968554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.28043142" />
+      <window_info anchor="bottom" id="Terminal" weight="0.28035983" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4047976" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4047976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,7 +524,9 @@
     <MESSAGE value="initial config" />
     <MESSAGE value="hello world example and test" />
     <MESSAGE value="Credit for hello question, test for adding book that already exists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Credit for hello question, test for adding book that already exists" />
+    <MESSAGE value="Docker configuration" />
+    <MESSAGE value="fix grade scheme filename" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix grade scheme filename" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/grade_calculator/reports/tests.test_q2_shout_out_report.txt">
@@ -560,17 +542,6 @@
     <entry file="file://$PROJECT_DIR$/lab_questions/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1539899623000" expanded="true" signature="90:231" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_author_book.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -583,22 +554,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grades/grade_schema.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grade_calculator/grade_calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2168">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grade_calculator/reports/tests.test_author_book_report.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_runner.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -607,6 +578,13 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade_calculator/grade_calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2168">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -624,10 +602,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grades/config.json">
+    <entry file="file://$PROJECT_DIR$/lab_questions/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <marker date="1539913318000" expanded="true" signature="120:125" ph="..." />
+            <marker date="1539913318000" expanded="true" signature="190:195" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -647,21 +629,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab_questions/hello.py">
+    <entry file="file://$PROJECT_DIR$/grades/grade_scheme.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <marker date="1539913318000" expanded="true" signature="120:125" ph="..." />
-            <marker date="1539913318000" expanded="true" signature="190:195" ph="..." />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/test_reports/TEST-test_hello.TestHello.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1539914135000" expanded="true" signature="90:231" ph="..." />
+            <marker date="1539914135000" expanded="true" signature="259:264" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
