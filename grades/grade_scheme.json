@@ -8,7 +8,7 @@
       "test_files": ["test_hello.TestHello"]
     },
     {
-      "question": 1,
+      "question": 2,
       "source_file" : "author_book",
       "points" : 15,
       "test_files": ["test_author_book.TestAuthorBook"]
