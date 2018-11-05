@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="164d38df-cd55-4a89-ab58-121ce05cc0fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_questions/author_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_questions/author_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_questions/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_questions/hello.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,9 +12,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PAG_5$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1541432697430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/PAG_5$hello.coverage" NAME="hello Coverage Results" MODIFIED="1541432691392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_questions" />
+    <SUITE FILE_PATH="coverage/PAG_5$hello.coverage" NAME="hello Coverage Results" MODIFIED="1541435446686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_questions" />
     <SUITE FILE_PATH="coverage/PAG_5$Unittests_in_test_author_book_py.coverage" NAME="Unittests in test_author_book.py Coverage Results" MODIFIED="1539906606721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/PAG_5$grade_calculator.coverage" NAME="grade_calculator Coverage Results" MODIFIED="1541432711213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grade_calculator" />
+    <SUITE FILE_PATH="coverage/PAG_5$grade_calculator.coverage" NAME="grade_calculator Coverage Results" MODIFIED="1541434533302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grade_calculator" />
     <SUITE FILE_PATH="coverage/PAG_5$Unittests_in_test_hello_py.coverage" NAME="Unittests in test_hello.py Coverage Results" MODIFIED="1539900465299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/PAG_5$author_book.coverage" NAME="author_book Coverage Results" MODIFIED="1539901615965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_questions" />
     <SUITE FILE_PATH="coverage/PAG_5$test_runner.coverage" NAME="test_runner Coverage Results" MODIFIED="1541432777677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -36,20 +34,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="2" />
+          <entry key="Dockerfile" value="5" />
           <entry key="gitignore" value="2" />
-          <entry key="json" value="5" />
-          <entry key="py" value="18" />
+          <entry key="json" value="7" />
+          <entry key="py" value="21" />
           <entry key="txt" value="4" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dockerfile" value="2" />
-          <entry key="JSON" value="5" />
+          <entry key="Dockerfile" value="5" />
+          <entry key="JSON" value="7" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="18" />
+          <entry key="Python" value="21" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -58,40 +56,70 @@
           <entry key="Dockerfile" value="251" />
           <entry key="gitignore" value="42" />
           <entry key="json" value="118" />
-          <entry key="py" value="6842" />
-          <entry key="txt" value="388" />
+          <entry key="py" value="7065" />
+          <entry key="txt" value="442" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="251" />
           <entry key="JSON" value="118" />
-          <entry key="PLAIN_TEXT" value="430" />
-          <entry key="Python" value="6842" />
+          <entry key="PLAIN_TEXT" value="484" />
+          <entry key="Python" value="7065" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab_questions/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <marker date="1541433012000" expanded="true" signature="138:143" ph="..." />
-                <marker date="1541433012000" expanded="true" signature="206:211" ph="..." />
+                <marker date="1541434854000" expanded="true" signature="138:143" ph="..." />
+                <marker date="1541434854000" expanded="true" signature="208:213" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grade_calculator/grade_calculator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
+              <folding>
+                <element signature="e#473#484#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_author_book.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_hello.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab_questions/author_book.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <marker date="1541433012000" expanded="true" signature="40:902" ph="..." />
                 <marker date="1541433012000" expanded="true" signature="900:901" ph="..." />
@@ -121,7 +149,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lab_questions/__init__.py" />
-        <option value="$PROJECT_DIR$/grade_calculator/grade_calculator.py" />
         <option value="$PROJECT_DIR$/tests/test_author_book.py" />
         <option value="$PROJECT_DIR$/grades/grade_schema.json" />
         <option value="$PROJECT_DIR$/requirements.txt" />
@@ -131,8 +158,9 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/tests/test_hello.py" />
         <option value="$PROJECT_DIR$/grades/grade_scheme.json" />
-        <option value="$PROJECT_DIR$/lab_questions/hello.py" />
         <option value="$PROJECT_DIR$/lab_questions/author_book.py" />
+        <option value="$PROJECT_DIR$/grade_calculator/grade_calculator.py" />
+        <option value="$PROJECT_DIR$/lab_questions/hello.py" />
       </list>
     </option>
   </component>
@@ -143,8 +171,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
-    <option name="y" value="45" />
+    <option name="x" value="83" />
+    <option name="y" value="44" />
     <option name="width" value="1102" />
     <option name="height" value="765" />
   </component>
@@ -184,7 +212,31 @@
             <path>
               <item name="PAG_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="PAG_5" type="462c0819:PsiDirectoryNode" />
+              <item name="grade_calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PAG_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PAG_5" type="462c0819:PsiDirectoryNode" />
+              <item name="grades" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PAG_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PAG_5" type="462c0819:PsiDirectoryNode" />
               <item name="lab_questions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PAG_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PAG_5" type="462c0819:PsiDirectoryNode" />
+              <item name="test_reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PAG_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PAG_5" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PAG_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -227,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_runner">
+  <component name="RunManager" selected="Python.hello">
     <configuration name="grade_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PAG_5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -333,10 +385,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_runner" />
-        <item itemvalue="Python.grade_calculator" />
-        <item itemvalue="Python tests.Unittests in tests" />
         <item itemvalue="Python.hello" />
+        <item itemvalue="Python.grade_calculator" />
+        <item itemvalue="Python.test_runner" />
+        <item itemvalue="Python tests.Unittests in tests" />
         <item itemvalue="Python tests.Unittests in test_author_book.py" />
       </list>
     </recent_temporary>
@@ -436,7 +488,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540417680196</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Comments, cleanup">
+      <created>1541433034191</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1541433034191</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fix grade calculator script locations">
+      <created>1541434878604</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1541434878604</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -481,15 +547,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="45" width="1102" height="765" extended-state="0" />
+    <frame x="83" y="44" width="1102" height="765" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28962263" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28962263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21693908" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47102526" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -498,7 +564,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2793462" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2778603" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -525,7 +591,9 @@
     <MESSAGE value="fix grade scheme filename" />
     <MESSAGE value="test report filenames include testcase" />
     <MESSAGE value="fix question numbering" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix question numbering" />
+    <MESSAGE value="Comments, cleanup" />
+    <MESSAGE value="Fix grade calculator script locations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix grade calculator script locations" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/grade_calculator/reports/tests.test_q2_shout_out_report.txt" />
@@ -539,13 +607,6 @@
     <entry file="file://$PROJECT_DIR$/lab_questions/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_author_book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grade_calculator/reports/tests.test_author_book_report.txt" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -558,13 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grade_calculator/grade_calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2168">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -586,17 +640,57 @@
     <entry file="file://$PROJECT_DIR$/test_reports/TEST-test_hello.TestHello.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grades/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="14" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_author_book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade_calculator/grade_calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
+          <folding>
+            <element signature="e#473#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/grade_scheme.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_questions/author_book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1541433012000" expanded="true" signature="40:902" ph="..." />
+            <marker date="1541433012000" expanded="true" signature="900:901" ph="..." />
+            <marker date="1541433012000" expanded="true" signature="1674:1676" ph="..." />
+            <marker date="1541433012000" expanded="true" signature="1675:1676" ph="..." />
+            <marker date="1541433012000" expanded="true" signature="1865:1866" ph="..." />
+            <marker date="1541433012000" expanded="true" signature="2074:2075" ph="..." />
+            <marker date="1541433012000" expanded="true" signature="2443:2444" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -607,36 +701,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grades/grade_scheme.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab_questions/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <marker date="1541433012000" expanded="true" signature="138:143" ph="..." />
-            <marker date="1541433012000" expanded="true" signature="206:211" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_questions/author_book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <marker date="1541433012000" expanded="true" signature="40:902" ph="..." />
-            <marker date="1541433012000" expanded="true" signature="900:901" ph="..." />
-            <marker date="1541433012000" expanded="true" signature="1674:1676" ph="..." />
-            <marker date="1541433012000" expanded="true" signature="1675:1676" ph="..." />
-            <marker date="1541433012000" expanded="true" signature="1865:1866" ph="..." />
-            <marker date="1541433012000" expanded="true" signature="2074:2075" ph="..." />
-            <marker date="1541433012000" expanded="true" signature="2443:2444" ph="..." />
+            <marker date="1541434854000" expanded="true" signature="138:143" ph="..." />
+            <marker date="1541434854000" expanded="true" signature="208:213" ph="..." />
           </folding>
         </state>
       </provider>
