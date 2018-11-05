@@ -4,7 +4,7 @@
 
 def hello():
     """ This function returns the string 'Hello' """
-    return 'hello'  # TODO this is wrong! Please fix.
+    return 'goodbye'  # TODO this is wrong! Please fix.
 
 
 def main():

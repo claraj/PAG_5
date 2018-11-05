@@ -2,10 +2,7 @@
 
 # This program read in the lab's JSON file, run tests, figure out points.
 # Instructor: remember to edit the grades.json file to assign appropriate points for each lab question.
-#  (Students, note that the instructor's copy of grades.json is used for grading :)
-
-# Credit to helpful stack overflow.
-# https://stackoverflow.com/questions/14282783/call-a-python-unittest-from-another-script-and-export-all-the-error-messages
+# Students, note that the instructor's copy of the tests, and the grade_scheme.json is used for grading :)
 
 import json
 import os
@@ -18,7 +15,7 @@ import sys
 script_loc = sys.path[0]
 sys.path.append(os.path.join(script_loc, '..'))
 
-grade_json = 'grade_schema.json'  # Modify this if the filename with points and test files is changed
+grade_json = 'grade_scheme.json'  # Modify this if the filename with points and test files is changed
 grade_json_file = os.path.join('grades', grade_json)
 test_out_file = 'test_report.txt'
 round_grades_to = 2  # how many decimal places?  Unused at the moment.
@@ -95,23 +92,23 @@ def calc():
     return points_earned, messages
 
 
-def run_test(test_file):
+def run_test(test_module):
 
     """
     :param lab: name of directory containing the lab materials
-    :param test_file: the test file name, read from JSON. The module/package is assumed
+    :param test_file: the test file name, including the module/package name
     :return: test results.
     """
 
-    test_file = 'tests.%s' % test_file
+    test_file = test_module.split('.')[0]
+    test_path = 'tests.%s' % test_file
 
     try:
-        test_package = importlib.import_module(test_file)
+        test_package = importlib.import_module(test_path)
     except ModuleNotFoundError as err:
         sys.exit('Unable to calculate grades. Please report this to the instructor.' + str(err))
 
     objects = [m[1] for m in inspect.getmembers(test_package) if inspect.isclass(m[1])]
-    #print('objects', objects)
 
     results = []
 
@@ -121,7 +118,6 @@ def run_test(test_file):
         # Dump test output into text file to not clutter console output.
         # test_out_file is human-readable, may be used for debugging
 
-
         # Skip the superclass TestCase
         if 'unittest.case.TestCase' in str(obj):
             continue
@@ -130,15 +126,10 @@ def run_test(test_file):
 
         with open(report_file, 'w') as stream:
             runner = unittest.TextTestRunner(stream)
-
             result = runner.run(unittest.makeSuite(obj))
-            #print('this many tests were run', result.testsRun)
-
             results.append(result)
 
-
     return results
-
 
 
 class GradeData:
