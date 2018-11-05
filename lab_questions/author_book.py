@@ -6,7 +6,7 @@ def main():
     # You don't modify the main method.
 
     # Example books
-    books = {'JK Rolling': 'Harry Potter',
+    books = {'JK Rowling': 'Harry Potter',
              'Al Sweigart': 'Automate the Boring Stuff With Python',
              'Margaret Wise Brown': 'Goodnight Moon'}
 
