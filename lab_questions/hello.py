@@ -1,15 +1,16 @@
-# Hello lab.
+# Week 5 Warm up - Hello
 # The hello() function should return 'hello'.
 
 
 def hello():
-    # This function returns the string 'Hello'
-    return 'goodbye'  # TODO this is wrong! Please fix.
+    """ This function returns the string 'Hello' """
+    return 'hello'  # TODO this is wrong! Please fix.
 
 
 def main():
     print(hello() + ' python programmer!')
 
 
-if __name__ == '__main__':
+# Don't modify this
+if '__main__' == __name__:
     main()

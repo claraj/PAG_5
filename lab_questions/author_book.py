@@ -1,9 +1,9 @@
-# Homework Week 5, Dictionaries
+# Week 5, Dictionaries Lab
 
 
 def main():
 
-    # Don't modify the main method.
+    # You don't modify the main method.
 
     # Example books
     books = {'JK Rolling': 'Harry Potter',
@@ -32,8 +32,9 @@ def main():
 
 
 def display_menu():
-    # Don't modify this method.
-    # Print all of the program's options.
+    """ Display the program's menu """
+
+    # You don't modify this method.
     print('add: Add new book')
     print('view: View all books')
     print('find: Find a title for an author')
@@ -49,12 +50,13 @@ def display_menu():
 
 # TODO write the add_book function here.
 # This function should ask for an author and a title, and add these as a new key:value pair to the books dictionary.
-# If the author is already in the dictionary, print "Already in dictionary" and don't modify the dictionary. Your program should not crash
+# If the author is already in the dictionary, print "Already in dictionary" and don't modify the dictionary.
+# Your program should not crash if the author is not in the dictionary.
 
 
 # TODO write the view_books function here. This function should print all of the authors and titles.
 # This function should not ask for any input.
-# Print the authors and titles together
+# Print the authors and titles together,
 
 
 # TODO write the find_book function here.
@@ -66,16 +68,18 @@ def display_menu():
 # TODO write the edit_books function here.
 # This function should ask for an author, and the new book title.
 # If the author is found in the dictionary, Modify the dictionary so the author's title is the new value.
-# If the author is not found, print the string 'Not Found' and don't modify the dictionary. Your program should not crash.
+# If the author is not found, print the string 'Not Found' and don't modify the dictionary.
+# Your program should not crash if the author is not found.
 
 
 # TODO write the delete_book function here.
 # This function should ask for an author.
 # If the author is found in the dictionary, delete that author's key-value pair.
-# If the author is not found, print 'Not Found' and don't modify the dictionary. Your program should not crash.
+# If the author is not found, print 'Not Found' and don't modify the dictionary.
+# Your program should not crash if the author is not found.
 
 
 
-# Don't modify this call to main() either.
+# Don't modify this code.
 if __name__ == '__main__':
     main()
